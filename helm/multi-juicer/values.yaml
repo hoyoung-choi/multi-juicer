@@ -76,9 +76,9 @@ balancer:
 
 juiceShop:
   # juiceShop.maxInstances -- Specifies how many JuiceShop instances MultiJuicer should start at max. Set to -1 to remove the max Juice Shop instance cap
-  maxInstances: 10
+  maxInstances: -1
   # Juice Shop Image to use
-  image: bkimminich/juice-shop
+  image: hoyoungchoi/juice-shop
   tag: v11.1.0
   # juiceShop.ctfKey -- Change the key when hosting a CTF event. This key gets used to generate the challenge flags. See: https://pwning.owasp-juice.shop/part1/ctf.html#overriding-the-ctfkey
   ctfKey: "zLp@.-6fMW6L-7R3b!9uR_K!NfkkTr"
